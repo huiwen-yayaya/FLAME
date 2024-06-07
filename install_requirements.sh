@@ -8,19 +8,22 @@ dqtime=$(date "+%Y-%m-%d %H:%M:%S")
 echo "datetime: ${dqtime}"
 
 echo "Install pytorch"
-conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+pip install torch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0
 
 echo "Install sklearn"
-conda install scikit-learn
+pip install scikit-learn==1.0.2
 
 echo "Install opencv"
-pip install opencv-python
+pip install opencv-python==4.5.5.64
 
 echo "Install sk-image"
-conda install Scikit-Image
+pip install scikit-image==0.19.2
 
 echo "Install matplotlib"
-conda install matplotlib
+pip install matplotlib==3.4.3
 
 echo "Install hdbscan"
-pip install hdbscan
+pip install hdbscan==0.8.36
+
+echo "Installation completed!"
+
