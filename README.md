@@ -89,7 +89,7 @@ cd ..
 # path returns to FLAME
 # no ',' in dataset, model, attack, defence, iid: only choose 1
 # example:
-python main_fed.py --dataset cifar                    --model VGG                    --attack dba                    --lr 0.1                    --malicious 0.1                    --poison_frac 1.0                    --local_ep 2                    --local_bs 64                    --attack_begin 0                    --defence avg                    --epochs 200                    --attack_label 5                    --attack_goal -1                    --trigger 'square','pattern','watermark','apple'                    --triggerX 27                    --triggerY 27                    --gpu 0                    --save save/your_experiments_cifar                    --iid 0
+python main_fed.py --dataset cifar --model VGG --attack dba --lr 0.1 --malicious 0.1 --poison_frac 1.0 --local_ep 2 --local_bs 64 --attack_begin 0 --defence avg --epochs 200 --attack_label 5 --attack_goal -1 --trigger 'square','pattern','watermark','apple' --triggerX 27 --triggerY 27 --gpu 0 --save save/your_experiments_cifar --iid 0
 
 #result:
 ======================================
@@ -132,5 +132,4 @@ Round   3, Average loss 1.697
 
 reference: \
 paper: https://www.usenix.org/system/files/sec22-nguyen.pdf or path: ./file/paper \
-code: https://github.com/zhmzm/FLAME \
 ppt: path: ./file/ppt-official
