@@ -135,13 +135,6 @@ paper: https://www.usenix.org/system/files/sec22-nguyen.pdf or path: ./file/pape
 ppt: path: ./file/ppt-official
 
 # 2: result
-ABSR Average Backdoor Success Rate, ACC indicates accuracy of the main tasks.
-Dataset	Model	Attack	Defence	ABSR	ACC
-CIFAR-10	ResNet18	dba	No Defence	13.89	77.18
-CIFAR-10	ResNet18	dba	FLAME	2.98	74.71
-CIFAR-10	VGG	dba	No Defence	10.85	79.42
-CIFAR-10	VGG	dba	FLAME	19.4	57.76
-fashion-MNIST	CNN	dba	No Defence	99.99	89.61
-fashion-MNIST	CNN	dba	FLAME	99.85	87.82
+ABSR Average Backdoor Success Rate, ACC indicates accuracy of the main tas
 ![image](https://github.com/huiwen-yayaya/FLAME/assets/128218264/c5e2c56f-4d83-4fa9-9ed4-b6743a50a423)
 
