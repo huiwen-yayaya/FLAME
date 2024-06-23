@@ -135,6 +135,6 @@ paper: https://www.usenix.org/system/files/sec22-nguyen.pdf or path: ./file/pape
 ppt: path: ./file/ppt-official
 
 # 2: result
-ABSR Average Backdoor Success Rate, ACC indicates accuracy of the main tas
+ABSR Average Backdoor Success Rate, ACC indicates the accuracy of the main tasks.
 ![image](https://github.com/huiwen-yayaya/FLAME/assets/128218264/c5e2c56f-4d83-4fa9-9ed4-b6743a50a423)
 
