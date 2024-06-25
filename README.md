@@ -1,4 +1,4 @@
-# 0: environment
+![image](https://github.com/huiwen-yayaya/FLAME/assets/128218264/d3ebe2b5-4a33-4681-bdc4-1c448b9fa0f9)![image](https://github.com/huiwen-yayaya/FLAME/assets/128218264/423e5fc6-2b56-4885-ac35-dca7210d4e3e)# 0: environment
 ```bash
 # exist: docker 9c87dfe0518b /FLAME
 apt install python3.10 python3.10-venv
@@ -136,5 +136,7 @@ ppt: path: ./file/ppt-official
 
 # 2: result
 ABSR Average Backdoor Success Rate, ACC indicates the accuracy of the main tasks.
+× defense RLR: NVIDIA GPU driver
+× defense krum: kill
 ![image](https://github.com/huiwen-yayaya/FLAME/assets/128218264/c5e2c56f-4d83-4fa9-9ed4-b6743a50a423)
 
