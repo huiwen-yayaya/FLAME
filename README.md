@@ -142,5 +142,5 @@ Windows 11 Professional. \
 ![image](https://github.com/huiwen-yayaya/FLAME/assets/128218264/c5e2c56f-4d83-4fa9-9ed4-b6743a50a423) \
 ABSR Average Backdoor Success Rate, ACC indicates the accuracy of the main tasks. \
 × defense RLR: NVIDIA GPU driver \
-× defense krum: kill \
+× defense krum: kill
 
